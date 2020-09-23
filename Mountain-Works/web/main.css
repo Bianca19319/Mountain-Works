@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial';
+    background-color: #4EA0AE; /*blue*/
+}
+
+@media only screen and (max-width: 640px) {
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto; 
+    background color: gray;
+    padding: 32px;
+    } /* the @media queries allows the content to render and adapt to to different conditions, such as screen resolutions, dimensions, etc */
+}
+
+#banner {
+    padding bottom: 15px; 
+} /*this is the websites logo and site name that is seen at the top of all pages*/
+
+.main_menu {
+    padding: 5px 0 px 0 5px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #889e81; /*green shade*/
+} /* the decoration for the navigation bar, that floats at the top of all pages*/
+
+ul.main_menu {
+    margin-top: 15px;
+}
+
+.main_menu li {
+    display: inline;
+    padding 0 10px 0 10px;
+    font-size 20px;
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: #fff; /* white*/
+    padding: 8px;
+    font-variant: small-caps;
+} 
+
+.main_menu a:hover {
+    color:black;
+} /* when you hover over the page names in the navigation bar, the text colour will change to black*/
+
+p {
+    outline: 1px solid black;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px; 
+    padding-top: 45px;
+    align-content: center;
+    font-size: 15px;
+    background-color: #f0cf85; /*sandy yellow color*/
+    
+}
+
+table {
+    width: 600px; 
+}
+
+caption {
+     text-decoration: underline;
+    text-decoration: bold;
+}
+
+th { 
+    text-align: left;   
+}
+
+table,th,td { 
+    border: 1px solid #000; /*black*/
+    border-collapse: collapse;
+}/* gives table a border without the 1px spacing, targeting the entire table including the 'table header' and 'table data'*/
+
+th, td {
+    padding-left: 10px;
+}
+tr:nth-child(odd) {
+    background-color: gray;
+} /*colours every 'odd' row with the gray background colour*/
+
+tr:nth-child(even) {
+    background-color: beige;
+}/*colours every 'even' row with the beige  background colour*/
+
+h3 { 
+    text-decoration-color: white;
+}
+
